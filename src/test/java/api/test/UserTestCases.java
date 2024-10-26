@@ -66,5 +66,6 @@ public class UserTestCases {
         response.then().log().all();
         logger.info("**********  user info deleted *********");
         Assert.assertEquals(response.getStatusCode(), 200);
+        System.out.println("User Deleted");
     }
 }
