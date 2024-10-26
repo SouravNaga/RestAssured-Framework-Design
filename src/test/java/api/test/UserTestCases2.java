@@ -40,7 +40,7 @@ public class UserTestCases2 {
         Response response = UserEndPoint2.createUser(userpayload);
         response.then().log().all();
         logger.info("********** User is created *********");
-        Assert.assertEquals(response.getStatusCode(), 200);
+        Assert.assertEquals(response.getStatusCode(), 201);
     }
     @Test(priority = 2)
     public void testGetUserbyname() {
