@@ -1,17 +1,8 @@
 package api.endpoints;
-import org.testng.ITestContext;
-import org.testng.annotations.Test;
-
-import com.github.javafaker.Faker;
-
 import api.payload.User;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
-
-import org.json.JSONObject;
 public class UserEndPoint {
 
 	public static Response createUser(User payload) {

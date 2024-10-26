@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  StoreTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>StoreTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 26 22:25:43 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>42 seconds (42703 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1050</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1020</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1070</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1030</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1010</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1020, 234, 12, 2024-10-26T15:33:18.166Z, placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1040, 678, 56, 2024-10-26T15:33:18.166Z, approved, TRUE</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1080, 335, 22, 2024-10-26T15:33:18.166Z, delivered, FALSE</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1060</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1070, 564, 45, 2024-10-26T15:33:18.166Z, delivered, FALSE</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1040</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1060</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1050</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1060, 643, 22, 2024-10-26T15:33:18.166Z, placed, TRUE</td>
+<td></td>
+<td>2</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1010</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1070</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1040</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1030</td>
+<td></td>
+<td>4</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1010, 123, 34, 2024-10-26T15:33:18.166Z, placed, TRUE</td>
+<td></td>
+<td>4</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1020</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.getStoreTest()'><b>getStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1080</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1030, 456, 34, 2024-10-26T15:33:18.166Z, approved, TRUE</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.deleteStoreTest()'><b>deleteStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1080</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+<tr>
+<td title='api.test.StoreDataDrivenTest.createStoreTest()'><b>createStoreTest</b><br>Test class: api.test.StoreDataDrivenTest<br>Parameters: 1050, 234, 24, 2024-10-26T15:33:18.166Z, placed, TRUE</td>
+<td></td>
+<td>1</td>
+<td>api.test.StoreDataDrivenTest@6bd61f98</td></tr>
+</table><p>
+</body>
+</html>

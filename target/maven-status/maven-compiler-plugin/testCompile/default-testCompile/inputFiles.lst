@@ -1,8 +1,12 @@
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\endpoints\Routes.java
+D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\endpoints\StoreEndPoint.java
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\endpoints\UserEndPoint.java
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\endpoints\UserEndPoint2.java
+D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\payload\Store.java
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\payload\User.java
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\test\DDTests.java
+D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\test\StoreDataDrivenTest.java
+D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\test\StoreTestCases.java
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\test\UserTestCases.java
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\test\UserTestCases2.java
 D:\eclipse-workspace\Rest Assured Projects\RestAssuredFrameworkDesign\src\test\java\api\utilities\DataProviders.java

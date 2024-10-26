@@ -1,10 +1,14 @@
-api\test\DDTests.class
 api\endpoints\UserEndPoint2.class
 api\utilities\ExtentReportManager.class
 api\utilities\DataProviders.class
-api\test\UserTestCases.class
 api\test\UserTestCases2.class
 api\payload\User.class
-api\utilities\XLUtility.class
+api\endpoints\StoreEndPoint.class
+api\test\StoreDataDrivenTest.class
 api\endpoints\Routes.class
 api\endpoints\UserEndPoint.class
+api\test\DDTests.class
+api\test\UserTestCases.class
+api\payload\Store.class
+api\utilities\XLUtility.class
+api\test\StoreTestCases.class
