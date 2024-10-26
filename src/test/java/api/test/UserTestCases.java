@@ -47,7 +47,7 @@ public class UserTestCases {
         Response response = UserEndPoint.getUser(userpayload.getUsername());
         response.then().log().all();
         logger.info("********** user info is displayed *********");
-        Assert.assertEquals(response.getStatusCode(), 201);
+        Assert.assertEquals(response.getStatusCode(), 200);
     }
     @Test(priority = 3)
     public void testUpdateUserbyname() {
